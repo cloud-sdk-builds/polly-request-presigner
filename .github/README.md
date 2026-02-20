@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/polly-request-presigner`](https://www.npmjs.com/package/@aws-sdk/polly-request-presigner/v/3.261.0).
+[`@aws-sdk/polly-request-presigner`](https://www.npmjs.com/package/@aws-sdk/polly-request-presigner/v/3.262.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.261.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.262.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tEPg0EYmRYRV/6JJg3nUk1RN2yTrSYewGhAgIAexjv4UQ5+EN3VI8vbELf0bH/+y
+sha384-r7xQ544P2R+BjnPRrfSfZRlLSGZX5+JeB0FX4s0N/LuDpwY4jIxqnN/MvsQyaJ3V
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/polly-request-presigner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.261.0/index.min.mjs"
+            "@aws-sdk/polly-request-presigner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.262.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.261.0/index.min.mjs": "sha384-tEPg0EYmRYRV/6JJg3nUk1RN2yTrSYewGhAgIAexjv4UQ5+EN3VI8vbELf0bH/+y"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.262.0/index.min.mjs": "sha384-r7xQ544P2R+BjnPRrfSfZRlLSGZX5+JeB0FX4s0N/LuDpwY4jIxqnN/MvsQyaJ3V"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/polly-request-presigner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.261.0/index.min.mjs"
+                        "@aws-sdk/polly-request-presigner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.262.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.261.0/index.min.mjs": "sha384-tEPg0EYmRYRV/6JJg3nUk1RN2yTrSYewGhAgIAexjv4UQ5+EN3VI8vbELf0bH/+y"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/polly-request-presigner@3.262.0/index.min.mjs": "sha384-r7xQ544P2R+BjnPRrfSfZRlLSGZX5+JeB0FX4s0N/LuDpwY4jIxqnN/MvsQyaJ3V"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.261.0`)
+* Always pin to a specific version (`@3.262.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/polly-request-presigner/blob/refs/tags/3.261.0/LICENSE
+https://github.com/cloud-sdk-builds/polly-request-presigner/blob/refs/tags/3.262.0/LICENSE
 ```
 
 ---
